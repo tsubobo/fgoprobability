@@ -32,6 +32,6 @@ const probability_calc=()=>{
   */
 
   const target = document.getElementById("output");
-  target.innerText = `喜べ少年。召喚回数${summon_num}回で、君の望みは${total_probability}%で叶う。`;
+  target.innerText = `喜べ少年。君の望みは、召喚数${summon_num}回により、${total_probability}%で叶う。`;
 
 };
